@@ -19,9 +19,6 @@ header{
     top: 0;
 }
 
-.icon >i{
-   margin-top: 0px;
-}
 
 body{
     margin-top: 8%;
@@ -168,3 +165,14 @@ footer{
     line-height: 35px;
 }
 
+.img-2{
+display: none;
+}
+
+.container:hover .img-1{
+    display: none;
+}
+
+.container:hover .img-2{
+    display: block;
+}
