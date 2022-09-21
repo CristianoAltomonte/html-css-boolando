@@ -48,9 +48,6 @@ ul >li{
     height: 20px;
 }
 
-.icon >i{
-    margin: 0 3px;
-}
 
 section{
     margin-top: 50px;
@@ -67,30 +64,9 @@ section{
     
 }
 
-.item1{
-    background-image: url('../img/1.jpg');
+.img{
+    width: 100%;
 }
-
-.item2{
-    background-image: url('../img/2.jpg');
-}
-.item3{
-    background-image: url('../img/3.jpg');
-}
-
-.item4{
-    background-image: url('../img/4.jpg');
-}
-
-.item5{
-    background-image: url('../img/5.jpg');
-}
-
-.item6{
-    background-image: url('../img/6.jpg');
-}
-
-
 
 .card-heart{
     position: absolute;
@@ -99,7 +75,20 @@ section{
     background-color: white;
     right: 0;
     top: 10px;
+    font-size: 30px;
+    text-align: center;
     
+}
+
+.card-heart:hover{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: red;
+    right: 0;
+    top: 10px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .card-discount{
