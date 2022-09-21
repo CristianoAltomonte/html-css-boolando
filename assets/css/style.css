@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: #FF6900;
+    height: 60px;
+    color: white;
+    position: fixed;
+    width: 100%; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+.flex-aling-items-center{
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-spacebetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul >li{
+    list-style: none;
+    margin: 0 5px;
+}
+
+.logo-boolean{
+    height: 20px;
+}
+
+.icon >i{
+    margin: 0 3px;
+}
