@@ -44,6 +44,7 @@ a:hover {
 .flex-spacebetween{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
