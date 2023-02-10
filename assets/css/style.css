@@ -26,6 +26,7 @@ body{
 
 a:link {
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
@@ -77,16 +78,21 @@ section{
     width: 100%;
 }
 
+.icon{
+    cursor: pointer;
+}
+
 .card-heart{
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: white;
-    right: 0;
+    right: 5px;
     top: 10px;
     font-size: 30px;
     text-align: center;
-    
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .card-heart:hover{
